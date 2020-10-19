@@ -1,0 +1,24 @@
+
+@media (max-width: 1200px) {
+	.btn {
+		width: 100%;
+	}
+	.adu img {
+		width: 40%;
+	}
+	.lah {
+		margin-top: 20px;
+	}
+	.hasil {
+		height: 80px;
+	}
+}
+@media (max-width: 670px) {
+	input {
+		width: 100%;
+		left: 0;
+	}
+	.adu img {
+		width: 70%;
+	}
+}

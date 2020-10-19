@@ -1,0 +1,116 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+header {
+    height: 75px;
+    width: 100%;
+    background-color: #752092;
+    opacity: 0.9;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+.logo {
+	opacity: 1;
+	margin-top: 15px;
+	height: 45px;
+}
+.pesan {
+	padding: 80px 0 0px 0;
+	color: red;
+	text-align: center;
+	font-size: 24px;
+}
+.heading {
+    color: #752092;
+    border-bottom: #752092 solid 1px;
+}
+input {
+	height: 200px;
+	width: 30%;
+	left: 5%;
+	margin-top: 50px;
+	border-radius: 50%;
+	position: relative;
+	border: none;
+	box-shadow: 0 7px #c957bc;
+	color: white;
+	font-size: 40px;
+}
+input:active {
+	position: relative;
+	top: 7px;
+	box-shadow: none;
+}
+.batu {
+	background-color: #696969;
+}
+.gunting {
+	background-color: #2e8b57;
+}
+.kertas {
+	background-color: #8b4513;
+}
+.heading h3 {
+	margin-top: 50px;
+	color: black;
+}
+.aturan {
+	color: #5f5d60
+}
+footer {
+	margin-top: 150px;
+    height: 200px;
+    width: 100%;
+    background-color: #752092;
+}
+.adu img {
+	margin-top: 100px;
+	margin-left: 10px;
+	width: 30%;
+}
+.hasil {
+	text-align: center;
+	background-color: black;
+	width: 50%;
+	line-height: 50px;
+}
+.seri {
+	color: silver;
+}
+.menang {
+	color: gold;
+}
+.kalah {
+	color: brown;
+}
+.btn {
+	font-size: 20px;
+    padding: 12px 24px;
+    display: inline-block;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+    width: 30%;
+}
+.oke {
+	background-color: royalblue;
+}
+.lah {
+	background-color: white;
+	color: red;
+	border: red solid 1px;
+}
+.pesan {
+	border-top: #5f5d60 solid 1px;
+	margin-top: 30px;
+	color: #5f5d60;
+}
